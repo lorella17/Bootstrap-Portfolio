@@ -1,0 +1,43 @@
+
+
+
+col-sm-8{
+    font-family: "italic";
+}
+
+
+.navbar {
+    margin-right: auto;
+    margin-bottom: 0;
+    border-radius: 0;
+    text-align: right;
+}
+
+.navbar-default{
+    background: white;
+}
+
+.navbar-default .navbar-brand{
+    color: teal;
+    font-size: 38px;
+    font-family: Georgia;
+}
+
+body{
+    width: 960px;
+}
+.navbar-fixed-bottom{
+    text-align: center;
+}
+
+.col-md-8{
+    font-family: Arial;
+}
+
+.col-md-4{
+    font-size: 32px;
+    color: teal;
+    font-family: "Times New Roman";
+    text-align: center;
+
+}
