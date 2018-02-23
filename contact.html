@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="bootstrap-social.css">
-    <link rel="stylesheet" href="index.css"
+    <link rel="stylesheet" href="index.css">
 
     <script
             src="https://code.jquery.com/jquery-3.3.1.js"
@@ -22,58 +22,82 @@
 
 <body>
 
-<header id="Header">
+<header class="navbar-header">
     <div class="container">
-        <a href="index.html" id="logo">Leo Orellana</a>
-        <nav>
-            <a href="index.html">About</a>
-            <a href="portfolio.html">Portfolio</a>
-            <a href="contact.html">Contact</a>
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Leo Orellana</a>
+                </div>
+
+                <div class="collapse navbar-collapse pull-right" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li><a href="index.html">About</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+
+            </div>
         </nav>
     </div>
 </header>
 
 <div id="main-container" class="container">
-    <section class="main-section">
-        <h1>Contact</h1>
+    <div class="row ">
+        <div class="col-xs-12 col-sm-8 col-md-7">
+            <section class="main-section">
+                <h1>Contact</h1>
 
-        <form id="contact-form">
-            <ul>
-                <li>
-                    <label for="name">Name</label>
-                    <input type="text" id="name" name="name" placeholder="First and Last Name" required="required">
-                </li>
-                <li>
-                    <label for="email">Email</label>
-                    <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
-                </li>
-                <li>
-                    <label for="message">Message</label>
-                    <textarea id="message" name="message" required="required"></textarea>
-                </li>
-            </ul>
-            <input type="submit">
+                <form id="contact-form">
+                    <ul>
+                        <li>
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="First and Last Name" required="required">
+                        </li>
+                        <li>
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+                        </li>
+                        <li>
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" required="required"></textarea>
+                        </li>
+                    </ul>
+                    <input type="submit">
 
-        </form>
+                </form>
 
-    </section>
-
-    <section class="sidebar">
-        <div id="connect">
-            <h2>Connect with Me</h2>
-
-            <a class="btn btn-social-icon btn-github">
-                <span class = "fa fa-github"></span>
-            </a>
-            <a class="btn btn-social-icon btn-linkedin">
-                <span class = "fa fa-linkedin"></span>
-            </a>
-            <a class="btn btn-social-icon btn-google">
-                <span class = "fa fa-google"></span>
-            </a>
-
+            </section>
         </div>
-    </section>
+        <div class="col-xs-12 col-sm-4 col-md-5">
+            <section class="sidebar">
+
+                <div id="connect">
+                    <h2>Connect with Me</h2>
+
+                    <a class="btn btn-social-icon btn-github">
+                        <span class = "fa fa-github"></span>
+                    </a>
+                    <a class="btn btn-social-icon btn-linkedin">
+                    <span class = "fa fa-linkedin"></span>
+                    </a>
+                    <a class="btn btn-social-icon btn-google">
+                    <span class = "fa fa-google"></span>
+                    </a>
+
+                </div>
+
+            </section>
+        </div>
+    </div>
 </div>
 
 <footer>

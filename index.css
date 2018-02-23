@@ -20,6 +20,10 @@ body {
 
 }
 
+.navbar-fixed-top {
+    margin-top: 0;
+    position: absolute;
+}
 
 h1,
 h2,
