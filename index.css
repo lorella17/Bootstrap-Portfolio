@@ -14,10 +14,12 @@ body {
 
 .container {
     width: 100%;
-    max-width: 960px;
+    max-width: 980px;
     margin: 0 auto;
     clear: both;
+
 }
+
 
 h1,
 h2,
@@ -63,7 +65,9 @@ h3 {
     border-bottom: 2px solid #ccc;
 }
 
+
 #logo {
+    position: static;
     float: left;
     width: 250px;
     height: 90px;
@@ -78,11 +82,13 @@ h3 {
 }
 
 nav {
+    position: static;
     float: right;
     margin-top: 25px;
 }
 
 nav a {
+    position: static;
     display: inline-block;
     padding-left: 15px;
     margin-left: 15px;
@@ -93,6 +99,7 @@ nav a {
 }
 
 nav a:first-child {
+    position: static ;
     border-left: 0 none;
 }
 
@@ -114,7 +121,7 @@ footer {
 .sidebar {
     float: right;
     width: 100%;
-    max-width: 270px;
+    /*max-width: 270px;*/
     padding: 30px;
     margin-bottom: 20px;
     background: #fff;
