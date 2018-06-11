@@ -1,118 +1,134 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="en-us">
+
 <head>
+
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
     <title>Portfolio</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="bootstrap-social.css">
-    <link rel="stylesheet" href="index.css">
-    <script
-            src="https://code.jquery.com/jquery-3.3.1.js"
-            integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-            crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <!-- Boostrap Stylesheet -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <!-- Our own CSS stylesheet -->
+    <link rel="stylesheet" href="assets/css/styles.css" media="screen">
 
 </head>
 
 <body>
-
-<header class="navbar-header">
+<nav class="navbar navbar-expand-lg navbar-light navbar-fixed-top">
     <div class="container">
-        <nav class="navbar navbar-inverse navbar-fixed-top">
-            <div class="container">
-                <!-- Brand and toggle get grouped for better mobile display -->
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="#">Leo Orellana</a>
-                </div>
-
-                <div class="collapse navbar-collapse pull-right" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav">
-                        <li><a href="index.html">About</a></li>
-                        <li><a href="portfolio.html">Portfolio</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                    </ul>
-                </div>
-
-            </div>
-        </nav>
-    </div>
-</header>
-
-<div id="main-container" class="container">
-    <div class="row ">
-        <div class="col-xs-12 col-sm-8 col-md-6">
-            <section class="main-section">
-                <h1>Portfolio</h1>
-
-                <div class="work">
-                <img src="images/technics-q-c-640-480-1.jpg" class="img-rounded" alt="hangman">
-
-                <h3>Hangman</h3>
-                </div>
-                <div class="work">
-                    <img src="images/technics-q-c-640-480-2.jpg" class="img-rounded" alt="RPG Game">
-
-                    <h3>RPG Game</h3>
-                </div>
-                <div class="work">
-                    <img src="images/technics-q-c-640-480-5.jpg" class="img-rounded" alt="Trivia Game">
-
-                    <h3>Trivia Game</h3>
-                </div>
-                <div class="work">
-                    <img src="images/technics-q-c-640-480-7.jpg" class="img-rounded" alt="Rutgers Info Widget">
-
-                    <h3>Rutgers Info Widget</h3>
-                </div>
-                <div class="work">
-                    <img src="images/technics-q-c-640-480-9.jpg" class="img-rounded" alt="Rock Paper Scissors">
-
-                    <h3>Rock Paper Scissors</h3>
-                </div>
-
-            </section>
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <a class="navbar-brand" href="index.html" id="logo">Leo Orellana</a>
         </div>
+        <button type="button" class="navbar-toggler collapsed ml-auto" data-toggle="collapse" data-target="#page-nav-collapse" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="page-nav-collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="index.html">About</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+<!-- End of navbar -->
 
+<!-- Start of container -->
+<div class="container">
+    <main class="row">
+        <div class="col-md-8">
+            <article class="block">
+                <h1 class="block-header">Portfolio</h1>
+                <hr />
+                <div class="work">
+                    <img src="images/the-Hangman-logo.png" alt="hangman">
 
-        <div class="col-xs-12 col-sm-4 col-md-6">
-            <section class="sidebar">
+                    <h3>Hangman</h3>
+                </div>
 
-                <div id="connect">
-                    <h2>Connect with Me</h2>
-
-                    <a class="btn btn-social-icon btn-github">
-                        <span class = "fa fa-github"></span>
-                    </a>
-                    <a class="btn btn-social-icon btn-linkedin">
-                        <span class = "fa fa-linkedin"></span>
-                    </a>
-                    <a class="btn btn-social-icon btn-google">
-                        <span class = "fa fa-google"></span>
-                    </a>
+                <div class="work">
+                    <img src="images/imag_edito-psychics-concept-RF-8836821_4753.jpg" alt="Psychic Game">
+                    <a href="https://lorella17.github.io/Psychic-Game/"><h3>Psychic Game</h3></a>
 
                 </div>
 
-            </section>
+                <div class="work">
+                    <img src="images/512x512bb.jpg" alt="Soccer Trivia">
+                    <a href="https://lorella17.github.io/TriviaGame/"><h3>Soccer Trivia</h3></a>
+
+                </div>
+
+                <div class="work">
+                    <img src="images/Mix4.jpg" alt="Crystal Game">
+                    <a href="https://lorella17.github.io/week-4-game/"><h3>Crystal Game</h3></a>
+
+                </div>
+
+                <div class="work">
+                    <img src="images/download.jpeg" alt="Giphy Project">
+                    <a href="https://lorella17.github.io/Responsive-Portfolio/"><h3>Cartoon Project</h3></a>
+
+                </div>
+
+                <div class="work">
+                    <img src="images/51rttY7a+9L.png" alt="Liri Project">
+                    <a href="https://lorella17.github.io/GiphyApi-Project/"><h3>liri</h3></a>
+
+                </div>
+
+                <div class="work">
+                    <img src="images/friendfinder.jpeg" alt="Friend Finder">
+                    <a href="https://github.com/lorella17/FriendFinder/"><h3>Friend Finder</h3></a>
+
+                </div>
+            </article>
         </div>
-    </div>
+        <div class="col-md-4">
+            <aside class="block">
+                <h1 class="block-header connect-header">Connect With Me</h1>
+                <hr />
+                <div id="images">
+                    <img src="images/github-128.png" alt="" class="connect-photo">
+                    <img src="images/linkedin-128.png" alt="" class="connect-photo">
+                    <img src="images/stackoverflow-128.png" alt="" class="connect-photo">
+                </div>
+            </aside>
+        </div>
+    </main>
 </div>
+<!-- End of container -->
 
-<footer>
-    <div class="container">
-        Copyright 2018 Leo Orellana
-    </div>
+<!-- Start of footer -->
+<footer class="footer">
+    <div class="two-toned-footer-color"></div>
+    <p class="text-muted text-muted-footer text-center">
+        &copy; Copyright 2018 Leo Orellana
+    </p>
 </footer>
+<!-- End of footer -->
+
+<!-- jQuery CDN -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<!-- Bootstrap CDN -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script></script>
+
 </body>
 
 </html>
